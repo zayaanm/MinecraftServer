@@ -14,7 +14,7 @@ async def on_ready():
 @client.command()
 async def start(ctx):
     # Starts the bot
-    if ctx.message.channel.name == 'owner-minecraft':
+    if ctx.message.channel.name == 'server-status':
         await run(ctx)
 
 async def run(ctx):
