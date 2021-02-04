@@ -4,7 +4,7 @@ import asyncio
 from discord.ext import commands
 
 oldStatus = False
-server = 'play.omegacraft.cl'
+server = 'copperminty.aternos.me'
 client = commands.Bot(command_prefix='!')
 
 @client.event
