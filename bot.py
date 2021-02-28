@@ -35,7 +35,7 @@ async def run(ctx):
         await asyncio.sleep(5)
 
 async def getStatus():
-    r = requests.get('https://eu.mc-api.net/v3/server/status-http/{}'.format(server))
+    r = requests.get('https://eu.mc-api.net/v3/server/status-http/copperminty.aternos.me')
     return r.text.split(',')
 
-client.run("ODA2NzE5NDUzNTI5Mzc0NzIx.YBtiCQ.DJ2NQ0rhkKMQLAmI2ovuPBJn8Fk")
+client.run("token")
